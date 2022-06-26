@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+</head>
+<body>
+    
+    
+<nav class="navigation" id="navigation">
+    <div class="logo">
+        <a href="main.html">BINK . <span>PUBLISHERS</span></a>
+    </div>
+    <div class="menu" id="menu">
+        <ul>
+            <li><a href="#">Bookstore</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <i class="fa-solid fa-circle-user"></i>
+            <li><a href="#">Log In</a></li>
+            <i class="fa-solid fa-cart-plus"></i>
+        </ul>
+    </div>
+</nav>
+
+<section class="cover-img">
+    <div class="cover">
+        <img src="images/cover.jpg" alt="">
+    </div>
+    <div class="text">
+        <h1>A SOFA, A GOOD BOOK, A ND YOU.</h1>
+    </div>
+</section>
+
+<main>
+    <section class="heading">
+        <p>BINK. Publishers</p>
+        <h1>BESTSELLERS </h1>
+    </section>
+    <section class="catalog-container swiper mySwiper ">
+        <div class=" swiper-wrapper" >
+            <div class="box swiper-slide">
+                <img src="images/catalog-book-1.jpg" alt="">
+                 <div class="title">
+                    <h3>I'm a product</h3>
+                    <p>$20.00</p>
+                 </div>
+                <button> Add  to Cart</button>
+            </div>
+            <div class="box swiper-slide">
+                <img src="images/catalog-book-1.jpg" alt="">
+                 <div class="title">
+                    <h3>I'm a product</h3>
+                    <p>$20.00</p>
+                 </div>
+                <button> Add  to Cart</button>
+            </div>
+            <div class="box swiper-slide">
+                <img src="images/catalog-book-1.jpg" alt="">
+                 <div class="title">
+                    <h3>I'm a product</h3>
+                    <p>$20.00</p>
+                 </div>
+                <button> Add  to Cart</button>
+            </div>
+            <div class="box swiper-slide">
+                <img src="images/catalog-book-1.jpg" alt="">
+                 <div class="title">
+                    <h3>I'm a product</h3>
+                    <p>$20.00</p>
+                 </div>
+                <button> Add  to Cart</button>
+            </div>
+            <div class="box swiper-slide">
+                <img src="images/catalog-book-1.jpg" alt="">
+                 <div class="title">
+                    <h3>I'm a product</h3>
+                    <p>$20.00</p>
+                 </div>
+                <button> Add  to Cart</button>
+            </div>
+            <div class="box swiper-slide">
+                <img src="images/catalog-book-1.jpg" alt="">
+                 <div class="title">
+                    <h3>I'm a product</h3>
+                    <p>$20.00</p>
+                 </div>
+                <button> Add  to Cart</button>
+            </div>
+            <div class="box swiper-slide">
+                <img src="images/catalog-book-1.jpg" alt="">
+                 <div class="title">
+                    <h3>I'm a product</h3>
+                    <p>$20.00</p>
+                 </div>
+                <button> Add  to Cart</button>
+            </div>
+            <div class="box swiper-slide">
+                <img src="images/catalog-book-1.jpg" alt="">
+                 <div class="title">
+                    <h3>I'm a product</h3>
+                    <p>$20.00</p>
+                 </div>
+                <button> Add  to Cart</button>
+            </div>
+            <div class="box swiper-slide">
+                <img src="images/catalog-book-1.jpg" alt="">
+                 <div class="title">
+                    <h3>I'm a product</h3>
+                    <p>$20.00</p>
+                 </div>
+                <button> Add  to Cart</button>
+            </div>
+            <div class="box swiper-slide">
+                <img src="images/catalog-book-1.jpg" alt="">
+                 <div class="title">
+                    <h3>I'm a product</h3>
+                    <p>$20.00</p>
+                 </div>
+                <button> Add  to Cart</button>
+            </div>       
+        </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>            
+         
+        
+    </section>
+     
+
+   
+</main>
+
+ 
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+<script src="js/main.js"></script>
+ 
+ 
+<script src="https://kit.fontawesome.com/5d7483260d.js" crossorigin="anonymous"></script>
+
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      spaceBetween: 5,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+    });
+  </script>
+
+ 
+ 
+</body>
+</html>
